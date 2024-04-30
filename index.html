@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='uk'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiziz</title>
+    <link rel="icon" href="тут назва картинки іконки формату ico">
+</head>
+<body>
+    <div class="start">
+        <select class="num">
+            <option selected  disabled>Обери діапазон числ</option>
+            <option value="10">1-10</option>
+            <option value="100">1-100</option>
+            <option value="1000">1-1000</option>
+        </select>
+        <select class="time">
+            <option selected  disabled>Обери час</option>
+            <option value="30000">30сек</option>
+            <option value="60000">1хв</option>
+            <option value="300000">5хв</option>
+        </select>
+        <!-- <div>
+            <input type="radio" class="typeQuiz" value="num">Number
+            <input type="radio" class="typeQuiz"  value="equ">Equation
+        </div> -->
+        <button class="btn_start">Start</button>
+    </div>
+    <div class="card_qw">
+        <div class="qw"></div>
+        <div class="answers">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+        </div>
+    </div>
+    <div class="finish">
+        <button class="btn_start back">Back</button>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js'></script>
+    <script type="module" src="main.js"></script> 
+</body>
+</html>
