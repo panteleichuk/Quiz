@@ -5,9 +5,11 @@ export function randint(min,max){
     return n
 }
 export function shuffle(arr){
-    for(i = 0; i < arr.length; i++){
-        let j  = randint(0,arr.length)
-        let a = arr[i]
+    let j
+    let a
+    for(let i = 0; i < arr.length; i++){
+        j  = randint(0,arr.length)
+        a = arr[i]
         arr[i] = arr[j]
         arr[j] = a
     }
