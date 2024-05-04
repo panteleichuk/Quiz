@@ -36,7 +36,7 @@ export class Qustion{
         this.newqw()
         this.count += 1
         div_qw.innerHTML = this.qw
-        shuffle(ans_arr)
+        shuffle(ans)
         for(let i = 0; i < ans_arr.length; i += 1){
             ans_arr[i].innerHTML = this.ans[i]
         }
